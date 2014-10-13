@@ -1,20 +1,17 @@
 package com.riandy.workhealthscheduler;
 
 import android.app.Activity;
-import android.app.AlarmManager;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.TaskStackBuilder;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.v4.app.NotificationCompat;
 import android.view.Menu;
 import android.view.View;
 
-import com.riandy.flexiblealertscheduling.Notif;
-import com.riandy.flexiblealertscheduling.PInfo;
+import com.riandy.flexiblealertscheduling.*;
 import com.riandy.workhealthscheduler.Helper.SaveSharedPreference;
 
 public class MainActivity extends Activity {
@@ -47,7 +44,7 @@ public class MainActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				Intent in = new Intent(getApplicationContext(),AlarmListActivity.class);
+				Intent in = new Intent(getApplicationContext(),AlarmListActivity1.class);
 				startActivity(in);				
 			}
 		});

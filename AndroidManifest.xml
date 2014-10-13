@@ -37,7 +37,8 @@
         </activity>
         <activity android:name="com.riandy.workhealthscheduler.AlarmDetailsActivity" />
         <activity android:name="com.riandy.workhealthscheduler.AlarmScreen" />
-
+		<activity
+		    android:name="com.riandy.flexiblealertscheduling.AlarmListActivity1"/>
         <service
             android:name="com.riandy.workhealthscheduler.AlarmService"
             android:enabled="true" />
